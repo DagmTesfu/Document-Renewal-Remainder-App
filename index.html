@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document Renewal Remainder App</title>
+        <link rel="stylesheet" href="css/styles.css">
+       
+    </head>
+
+    <body>
+       <div class="container"> 
+
+        <h1>Document Renewal Remainder</h1>
+
+        <section id="form-section">
+        <form id="documentForm">
+            <input type = "text" id="docName" name="docName" placeholder="Document Name" required>
+            <br>
+            <br>
+            <input type = "date" id="expiryDate" required>
+            <br>
+             <br>
+            <button type = "submit"> Add Remainder</button>
+            <button type = "button" id = "clearButton">Clear</button>        </form>
+
+        </section>
+
+        <section id = "remainderList">
+            <h2>Upcoming Renewal Reminders</h2>
+            <ul id ="reminderItems"></ul>
+        </section>
+       
+
+    </div>
+
+    <script src ="jquery-7-1.js"></script> 
+    <script src="js/script.js"></script>
+      
+    </body>
+</html>
