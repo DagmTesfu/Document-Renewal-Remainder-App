@@ -25,7 +25,11 @@
          // Remove the closest <li> (the parent of the button)
         $(this).parent("li").remove();
         });
-
+       
+         // Clear the whole list
+        $("#clearButton").on("click", function(){
+            $("#remainderList").empty();
+        })
                 
     });
 
